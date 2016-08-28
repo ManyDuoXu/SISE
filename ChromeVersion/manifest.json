@@ -1,0 +1,21 @@
+{
+    "name": "group1 extension",
+    "version": "1.0",
+    "manifest_version": 2,
+    "permissions": [
+        "http://*/*",
+        "https://*/*"
+    ],
+    "content_scripts": [
+        {  
+            "matches" : ["http://docs.oracle.com/javase/*", "https://docs.oracle.com/javase/*"],
+            "css": ["lib/popover.css", "main.css"],
+            "js": [
+                "lib/jquery-1.7.2.min.js",
+                "lib/jquery.popover-1.1.0.js",
+                "lib/Mustache.js",
+                "content.js"
+            ]
+        }
+    ]
+}
