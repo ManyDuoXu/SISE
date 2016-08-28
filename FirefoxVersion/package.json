@@ -1,0 +1,19 @@
+{
+  "title": "group1 ext",
+  "name": "group1",
+  "version": "0.0.1",
+  "description": "group1 ext",
+  "main": "index.js",
+  "author": "group1",
+  "engines": {
+    "firefox": ">=38.0a1",
+    "fennec": ">=38.0a1"
+  },
+  "license": "MIT",
+  "keywords": [
+    "jetpack"
+  ],
+  "permissions": {
+    "cross-domain-content": ["http://cs.adelaide.edu.au/", "https://cs.adelaide.edu.au/"]
+  }
+}

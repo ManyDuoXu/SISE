@@ -1,0 +1,50 @@
+#stackdoc-title {
+    float: right;
+    width: 470px;
+}
+
+.popover .wrapTitle {
+	padding-bottom: 10px;
+}
+
+.popover .sencence {
+	float: none;
+	padding-left: 15px;
+}
+
+.popover .symbol {
+	float: left;
+	width: 0; 
+	height: 0; 
+	border-top: 6px solid transparent;
+	border-bottom: 6px solid transparent;
+	border-left: 6px solid black;
+}
+
+.popover .symbol.bottom {
+	float: left;
+	width: 0; 
+	height: 0; 
+	border-left: 6px solid transparent;
+	border-right: 6px solid transparent;
+	border-top: 6px solid black;
+}
+
+.popover .wrapContent {
+	padding-left: 25px;
+	padding-bottom: 10px;
+	clear: both;
+}
+
+.popover .paragraph {
+	padding-bottom: 10px
+}
+
+.popover a.link {
+	color: red;
+}
+
+.popover a.link:hover {
+	color: red;
+	text-decoration: underline;
+}
